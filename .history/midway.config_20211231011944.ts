@@ -1,7 +1,7 @@
 import { defineConfig } from '@midwayjs/hooks';
 
 export default defineConfig({
-    source: './src/service/apis',
+    source: './src/apis',
     routes: [
         {
             baseDir: 'lambda',

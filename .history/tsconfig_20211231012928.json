@@ -17,7 +17,7 @@
     "emitDecoratorMetadata": true,
     "types": ["vite/client", "jest"]
   },
-  "include": ["./src", "src/service/apis/configuration.ts"],
+  "include": ["./src", "configuration.ts"],
   "ts-node": {
     "compilerOptions": {
       "module": "commonjs"
