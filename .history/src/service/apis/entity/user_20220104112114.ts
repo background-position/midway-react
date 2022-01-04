@@ -12,14 +12,10 @@ export class User {
         length: 100,
     })
     description: string;
-    @Column({
-        length: 20,
-    })
-    nick_name: string;
-    @Column({
-        length: 20,
-    })
-    password: string;
     @Column()
-    isAdmin: boolean;
+    nick_name: string;
+    @Column()
+    password: number;
+    @Column()
+    isPublished: boolean;
 }

@@ -17,7 +17,7 @@ export const post = async (name: string) => {
     // let res= UserService.save()
     let user = new UserService();
     try {
-        let res = await user.saveUser();
+        let res = await user.save();
     } catch (error) {
         console.log(error);
     }

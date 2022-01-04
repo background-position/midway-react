@@ -8,18 +8,12 @@ export class User {
         length: 30,
     })
     email: string;
-    @Column({
-        length: 100,
-    })
-    description: string;
-    @Column({
-        length: 20,
-    })
-    nick_name: string;
-    @Column({
-        length: 20,
-    })
-    password: string;
     @Column()
-    isAdmin: boolean;
+    description: string;
+    @Column()
+    nick_name: string;
+    @Column()
+    password: number;
+    @Column()
+    isPublished: boolean;
 }

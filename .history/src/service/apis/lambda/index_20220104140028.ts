@@ -14,11 +14,4 @@ export default async () => {
 
 export const post = async (name: string) => {
     // return { method: 'POST', name };
-    // let res= UserService.save()
-    let user = new UserService();
-    try {
-        let res = await user.saveUser();
-    } catch (error) {
-        console.log(error);
-    }
 };

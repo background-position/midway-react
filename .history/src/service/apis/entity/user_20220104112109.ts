@@ -9,17 +9,13 @@ export class User {
     })
     email: string;
     @Column({
-        length: 100,
+        length: 30,
     })
     description: string;
-    @Column({
-        length: 20,
-    })
-    nick_name: string;
-    @Column({
-        length: 20,
-    })
-    password: string;
     @Column()
-    isAdmin: boolean;
+    nick_name: string;
+    @Column()
+    password: number;
+    @Column()
+    isPublished: boolean;
 }

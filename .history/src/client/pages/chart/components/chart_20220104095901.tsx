@@ -32,12 +32,8 @@ const useStyles = makeStyles({
 const App: FC<PageProps> = () => {
     const classes = useStyles();
     return (
-        <div
-            style={{
-                minHeight: '100vh',
-            }}
-        >
-            <List sx={{ mb: 2, marginBottom: '0px', minHeight: '100vh' }}>
+        <div style={{}>
+            <List sx={{ mb: 2, marginBottom: '0px' }}>
                 {chartList.map(({ id, nickname, content, isMe }) => (
                     <React.Fragment key={id}>
                         {isMe ? (
